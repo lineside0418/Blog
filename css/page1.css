@@ -1,0 +1,124 @@
+.page1 {
+    color: deepskyblue;
+    background: -webkit-linear-gradient(300deg,rgb(60, 216, 255),rgb(117, 37, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dark .page1 {
+    color: deepskyblue;
+    background: -webkit-linear-gradient(300deg,deepskyblue,rgb(77, 0, 211));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.dark .page2 {
+    color: #d7d7d7;
+}
+
+.dark .page3 {
+    color: #d7d7d7;
+}
+
+main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.icon {
+    height: 160px;
+    rotate: 360deg;
+    transition-duration: 1s;
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: introduceanimation 0.5s forwards;
+}
+
+.dark .icon {
+    rotate: 0deg;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    width: auto;
+    justify-content: center;
+}
+
+.description h2 {
+    font-weight: 1600;
+    font-size: 60px;
+    letter-spacing: 3px;;
+    transition-duration: 1s;
+}
+
+.description p {
+    margin: auto;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+    transition-duration: 1s;
+}
+
+.dark .description h2 {
+    color: white;
+}
+
+.dark .description p {
+    color:rgb(183, 183, 183);
+}
+
+main h2 {
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: introduceanimation 0.5s forwards; 
+    animation-delay: 0.1s;
+}
+
+main p {
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: introduceanimation 0.5s forwards; 
+}
+
+main p:nth-child(1){
+    animation-delay: 0.2s;
+}
+
+main p:nth-child(2){
+    animation-delay: 0.3s;
+}
+
+main p:nth-child(3){
+    animation-delay: 0.4s;
+}
+
+main p:nth-child(4){
+    animation-delay: 0.5s;
+}
+
+main p:nth-child(5){
+    animation-delay: 0.6s;
+}
+
+@keyframes introduceanimation {
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
