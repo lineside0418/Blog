@@ -112,6 +112,7 @@ main {
     transform: translateX(15px);
     opacity: 0;
     animation: noticeanimation 0.5s forwards;
+    font-family: inter;
 }
 
 .notice div:nth-child(1) {

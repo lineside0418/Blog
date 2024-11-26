@@ -26,6 +26,7 @@
     transform: translateX(15px);
     opacity: 0;
     animation: postsanimation 0.5s forwards;
+    font-family: inter;
 }
 
 .posts div:nth-child(1) {
