@@ -137,7 +137,7 @@ main {
 }
 
 
-.top-notice {
+.top-posts {
     width: 40%;
     height: 100px;
     margin: 200px auto 0 auto;
@@ -146,7 +146,7 @@ main {
     transition-duration: 1s;
 }
 
-.top-notice h2 {
+.top-posts h2 {
     color: #1f1f1f;
     font-weight: 800px;
     font-size: 30px;
@@ -154,7 +154,7 @@ main {
     transition-duration: 1s;
 }
 
-.top-notice p {
+.top-posts p {
     color: #1f1f1f;
     font-weight: 100px;
     font-style: italic;
@@ -163,14 +163,14 @@ main {
     transition-duration: 1s;
 }
 
-.dark .top-notice {
+.dark .top-posts {
     border: 2px solid #d7d7d7;
 }
 
-.dark .top-notice h2 {
+.dark .top-posts h2 {
     color: #d7d7d7;
 }
 
-.dark .top-notice p {
+.dark .top-posts p {
     color: #d7d7d7;
 }
