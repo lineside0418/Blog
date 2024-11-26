@@ -33,6 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10%;
+    font-family: inter;
 }
 
 .header a {
@@ -42,6 +43,7 @@ body {
     font-weight: 600;
     letter-spacing: 3px;
     transition-duration: 1s;
+    font-family: inter;
 }
 
 #modechange {
